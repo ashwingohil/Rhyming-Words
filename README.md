@@ -1,5 +1,5 @@
 # Rhyming-Words
-Search for word and get similar sounding words for it
+**Search for word and get similar sounding words for it**
 
 >**About Project:** This project was the start of my journey with programming. And I chose C++ as the language behind it. The basic and the foremost idea was to search a word and get similar sounding words as a result. But as I started, it grew tremendously as I had to look at the other components of creating the desired outcome. 
  - For now, the program does produce results like searching a word **containing** any subset of letters within the word.
