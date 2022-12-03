@@ -2,10 +2,10 @@
 Search for word and get similar sounding words for it
 
 >**About Project:** This project was the start of my journey with programming. And I chose C++ as the language behind it. The basic and the foremost idea was to search a word and get similar sounding words as a result. But as I started, it grew tremendously as I had to look at the other components of creating the desired outcome. 
- - For now, the program does produce results like searching a word containing any subset of letters within the word.
- - Produce search outcome of words ending with any subset of letters
- - Produce search outcome of exact word search
- - Produce search outcome of words starting with any subset of letters
+ - For now, the program does produce results like searching a word **containing** any subset of letters within the word.
+ - Produce search outcome of words **ending** with any subset of letters
+ - Produce search outcome of **exact** word search
+ - Produce search outcome of words **starting** with any subset of letters
  - It has a full functionality of writing words in text files and inflected forms.
  - Load all the words of a particular user from the files into heap.
  - **This heap gets in form of nodes (26 nodes from letter a-z). Each node in the heap will have 26 subnodes (meaning aa, ab, ac, ad, ae, af ..... az = 26      child nodes). Similarly there will be 26 childnodes for next letter b (ba, bb, bc, bd ... bz)**
