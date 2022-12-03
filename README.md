@@ -12,6 +12,34 @@
  - This tree in the heap is sorted lexically for all the words inside each child node.
  - As data is already loaded in the heap once the program starts, search functions or queryresolver looks up in the tree by traversing through it and          arriving at the word given in query in less iterations.
  
+ 
+ 
+ ## Significant feature of an aggresive fast search: As you read above, it is a lexical tree of all data in the heap. Refer the diagram below for clarity.
+ 
+ **Basic Query types:**
+ 
+ **_tra = (would mean search words starting with "tra") - defined as INIT(in the code) - (initiating)**
+ 
+ **+er = (would mean search for words containing "er" in between) - defined as TRAN(in the code) - (transient)**
+ 
+ **~et = (would mean search for words ending with "et") - defined as TERM(in the code) - (terminating)**
+ 
+ **.walk = (would mean search the exact word "walk" - defined as VOC(in the code) - (vocubulary exact)**
+ 
+ **Now See the below output which shows data for letter - T and childnode data with words starting with tr**
+ 
+ ![image](https://user-images.githubusercontent.com/26901597/205448611-4790ff7f-a70e-4a9d-b797-100ba90b2b8c.png)
+
+**Now I am making a query = _trap . By looking at the data you will expect that it will take 5 iterations to reach word - "trap" as it would need 5 comparisions. But thats not true. Look at the line in below screenshot which is a print statement - "In tree query init" which basically would signify iterations. It will only take 1 iteration to reach to that row**
+
+![image](https://user-images.githubusercontent.com/26901597/205448368-6297213d-ee77-4c86-91bf-dff768b405f4.png)
+
+
+
+
+ 
+ 
+ 
   The main idea of producing rhyming words is not yet developed. This code is around **3068** lines. Heavy usage of pointers throughout the program. This     project is made from ground up and even the **lexical sorter** was developed by me. There are 2 classes -  Words, Queryresolver
   
   The project duration was 7 months in 2018 and after that I left it unfinished and the only work left is to put the backbone mechanism - to search rhyming   words for a word provided.
