@@ -26,11 +26,11 @@
  
  **.walk = (would mean search the exact word "walk" - defined as VOC(in the code) - (vocubulary exact)**
  
- **Now See the below output which shows data for letter - T and childnode data with words starting with tr**
+ **Now See the below output which shows data for letter - "T"(root) and childnode data with words starting with "tr"**
  
  ![image](https://user-images.githubusercontent.com/26901597/205448611-4790ff7f-a70e-4a9d-b797-100ba90b2b8c.png)
 
-**Now I am making a query = _trap . By looking at the data you will expect that it will take 5 iterations to reach word - "trap" as it would need 5 comparisions. But thats not true. Look at the line in below screenshot which is a print statement - "In tree query init" which basically would signify iterations. It will only take 1 iteration to reach to that row**
+**Now I am making a query = _trap . By looking at the data you will expect that it will take 5 iterations to reach word - "trap" as it would need 5 comparisions. But thats not true. Look at the line in below screenshot which is a print statement - "In tree query init" which basically signifies iterations. It will only take 1 iteration to reach to that row**
 
 ![image](https://user-images.githubusercontent.com/26901597/205448368-6297213d-ee77-4c86-91bf-dff768b405f4.png)
 
