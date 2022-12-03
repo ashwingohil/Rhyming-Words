@@ -6,7 +6,7 @@
  - Produce search outcome of words **ending** with any subset of letters
  - Produce search outcome of **exact** word search
  - Produce search outcome of words **starting** with any subset of letters
- - It has a full functionality of writing words in text files and inflected forms.
+ - It has a full functionality of writing words and inflected forms in text files.
  - Load all the words of a particular user from the files into heap.
  - **This heap gets in form of nodes (26 nodes from letter a-z). Each node in the heap will have 26 subnodes (meaning aa, ab, ac, ad, ae, af ..... az = 26      child nodes). Similarly there will be 26 childnodes for next letter b (ba, bb, bc, bd ... bz)**
  - This tree in the heap is sorted lexically for all the words inside each child node.
