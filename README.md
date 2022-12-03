@@ -14,7 +14,7 @@
  
  
  
- ## Significant feature of an aggresive fast search: As you read above, it is a lexical tree of all data in the heap. Refer the diagram below for clarity.
+ ## Significant feature of an aggresive fast search: As you read above, it is a lexical tree of all data in the heap.
  
  **Basic Query types:**
  
