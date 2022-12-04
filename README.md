@@ -49,6 +49,13 @@
   >**Learnings:** Heavy usage of pointers like struct pointers, struct pointer to pointer variable inside struct, complex forms of pointers, pointer accessing 2 dimensional grids, heap allocation, double pointers.
   
   Looking forward to create the backbone of this project when I get time.....
+  
+  >**Usage:** Linux - ./Words
+  
+  >If you want to make changes to cpp file. Then just run at prompt -  ./my_compile.sh Words.cpp 
+  
+  **Note that right now there is only limited data in the text files.**
+
 
 
 
