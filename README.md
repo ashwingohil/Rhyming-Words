@@ -34,6 +34,12 @@
 
 ![image](https://user-images.githubusercontent.com/26901597/205448368-6297213d-ee77-4c86-91bf-dff768b405f4.png)
 
+## Lexical Tree in the heap
+
+
+![image](https://user-images.githubusercontent.com/26901597/205473020-81461029-a794-4c36-b513-5f3a2d521770.png)
+
+
 
 
 
